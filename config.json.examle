@@ -1,0 +1,16 @@
+{
+  "host": "104.199.143.128",
+  "port": 22,
+  "username": "web",
+  "privateKeyPath": "D:\\PPK\\G4.MISA\\g4_private.ppk",
+  "targets": [
+    {
+      "from": "/var/www/misa_manage/site/lang/vendor_ui",
+      "to": "D:\\fish_sushi_order_downloader\\test\\p1"
+    },
+    {
+      "from": "/var/www/misa_manage/site/lang/client_ui",
+      "to": "D:\\fish_sushi_order_downloader\\test\\p2"
+    }
+  ]
+}
