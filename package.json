@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "build": "pkg index.js --targets node12-win-x64 --output dist/sushi_order_downloader.exe",
+    "build": "pkg index.js --targets node18-win-x64 --output dist/sushi_order_downloader.exe",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -13,5 +13,11 @@
   "dependencies": {
     "pkg": "^5.8.1",
     "ssh2-sftp-client": "^9.1.0"
+  },
+  "pkg": {
+    "assets": [
+      "config.json",
+      "log/**"
+    ]
   }
 }

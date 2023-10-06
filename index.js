@@ -3,7 +3,7 @@ const fs = require('fs')
 const path = require('path')
 const config = require('./config.json')
 const sftp = new Client()
-const logPath = path.join(__dirname, 'log', 'downloader.log')
+const logPath = path.join(process.cwd(), 'log', 'downloader.log')
 
 class Logger {
   logLimit = 1000
