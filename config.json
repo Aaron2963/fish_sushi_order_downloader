@@ -1,16 +1,16 @@
 {
-  "host": "104.199.143.128",
+  "host": "35.194.203.36",
   "port": 22,
-  "username": "web",
-  "privateKeyPath": "D:\\PPK\\G4.MISA\\g4_private.ppk",
+  "username": "rsa-key-20200213",
+  "privateKeyPath": "C:\\Users\\Administrator\\Desktop\\WinSCP Script\\rsa-key-20200213.ppk",
   "targets": [
     {
-      "from": "/var/www/misa_manage/site/lang/vendor_ui",
-      "to": "D:\\fish_sushi_order_downloader\\test\\p1"
+      "from": "/home/rsa-key-20200213/tastefresh/argo-sal",
+      "to": "C:\\Users\\Administrator\\Documents\\網站ERP銷貨單資料夾勿動"
     },
     {
-      "from": "/var/www/misa_manage/site/lang/client_ui",
-      "to": "D:\\fish_sushi_order_downloader\\test\\p2"
+      "from": "/home/rsa-key-20200213/tastefresh/argo-odr",
+      "to": "C:\\Users\\Administrator\\Documents\\網站ERP訂單資料夾勿動"
     }
   ]
 }
