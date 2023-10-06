@@ -1,0 +1,16 @@
+{
+  "host": "35.194.203.36",
+  "port": 22,
+  "username": "rsa-key-20200213",
+  "privateKeyPath": "C:\\Users\\Administrator\\Desktop\\WinSCP Script\\rsa-key-20200213.ppk",
+  "targets": [
+    {
+      "from": "/home/rsa-key-20200213/tastefresh/argo-sal",
+      "to": "C:\\Users\\Administrator\\Documents\\網站ERP銷貨單資料夾勿動"
+    },
+    {
+      "from": "/home/rsa-key-20200213/tastefresh/argo-odr",
+      "to": "C:\\Users\\Administrator\\Documents\\網站ERP訂單資料夾勿動"
+    }
+  ]
+}

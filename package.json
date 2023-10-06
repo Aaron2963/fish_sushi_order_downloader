@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
+    "build": "pkg index.js --targets node12-win-x64 --output dist/sushi_order_downloader.exe",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
