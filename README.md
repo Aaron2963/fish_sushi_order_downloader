@@ -1,7 +1,5 @@
 # Fish Sushi Order Downloader
 
-Current Version: v1.0.0
-
 ## Description
 
 This is a simple script to download the orders from the Fish Sushi website.
